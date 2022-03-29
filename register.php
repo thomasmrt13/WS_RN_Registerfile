@@ -16,7 +16,7 @@
 
     /* Requête sql pour inserer un nouvel utilisateur dans la table */
 
-    $query = "insert into <TAB_NAME>(Email, Password) values('$user_email', '$user_password')";
+    $query = "insert into <TABLE_NAME>(Email, Password) values('$user_email', '$user_password')";
 
     /* Récuprer les  infos de la requête*/
     
